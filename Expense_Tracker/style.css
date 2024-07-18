@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .expense-tracker-box{
+    width: 500px;
+    height: auto;
+    background: linear-gradient(135deg, lightgreen, lightblue);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px lightgreen;
+  }
+  .expense-tracker-box h1{
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .inputs input{
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid rgb(227, 226, 226);
+    font-size: 16px;
+    color: black;
+    margin-top: 2px;
+  }
+  .inputs input:focus{
+    outline: 2px solid blue;
+  }
+  .inputs label{
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  .expense-tracker-box h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .item-name-input, .item-amount-input{
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  button:hover{
+    opacity: 0.8;
+  }
+  .expense-list li{
+    border: none;
+    list-style: none;
+    padding: 12px 14px;
+    font-size: 16px;
+    font-weight: bold;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: rgb(236, 239, 239);
+  }
+  .expense-list li:hover{
+    outline: 2px solid rgb(225, 227, 227);
+    box-shadow: 0px 0px 5px 5px rgb(200, 201, 201);
+  }
